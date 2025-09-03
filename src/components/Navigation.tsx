@@ -10,7 +10,6 @@ const navItems = [
   { name: 'RSVP', href: '/rsvp' },
   { name: 'Photos', href: '/photos' },
   { name: 'Registry', href: '/registry' },
-  { name: 'Contact', href: '/contact' },
 ]
 
 export default function Navigation() {
