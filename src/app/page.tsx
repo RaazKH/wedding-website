@@ -31,7 +31,7 @@ export default function Home() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link 
-              href="/wedding" 
+              href="/rsvp" 
               className="btn-primary text-center min-w-[160px]"
             >
               RSVP Now
@@ -66,7 +66,7 @@ export default function Home() {
               in the heart of wine country.
             </p>
             <Link 
-              href="/wedding" 
+              href="/rsvp" 
               className="inline-flex items-center text-accent font-medium hover:text-accent/80 transition-colors"
             >
               View Wedding Details
