@@ -33,13 +33,6 @@ const paymentMethods: PaymentMethod[] = [
     displayValue: '@Raaz-Khoshnood'
   },
   {
-    name: 'Zelle',
-    icon: '⚡',
-    type: 'text',
-    value: 'raazlayli@email.com',
-    displayValue: 'raazlayli@email.com'
-  },
-  {
     name: 'Apple Cash',
     icon: '🍎',
     type: 'address',
