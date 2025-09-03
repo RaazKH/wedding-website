@@ -8,7 +8,7 @@ export default function Home() {
         <div className="absolute inset-0 opacity-30" style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23f3f4f6' fill-opacity='0.4'%3E%3Ccircle cx='30' cy='30' r='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
         }}></div>
-        
+
         <div className="text-center relative z-10 px-4">
           <div className="mb-8">
             <h1 className="font-serif text-5xl sm:text-6xl md:text-8xl font-light text-gray-900 mb-2">
@@ -19,7 +19,7 @@ export default function Home() {
               are getting married
             </p>
           </div>
-          
+
           <div className="mb-12">
             <p className="text-lg md:text-xl text-gray-700 mb-2 font-medium">
               June 15, 2024
@@ -28,23 +28,23 @@ export default function Home() {
               Napa Valley, California
             </p>
           </div>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link 
-              href="/rsvp" 
+            <Link
+              href="/rsvp"
               className="btn-primary text-center min-w-[160px]"
             >
               RSVP Now
             </Link>
-            <Link 
-              href="/story" 
+            <Link
+              href="/story"
               className="btn-secondary text-center min-w-[160px]"
             >
               Our Story
             </Link>
           </div>
         </div>
-        
+
         {/* Scroll indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -52,7 +52,7 @@ export default function Home() {
           </svg>
         </div>
       </section>
-      
+
       {/* Welcome Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 text-center">
@@ -61,12 +61,12 @@ export default function Home() {
               Join Us for Our Special Day
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              We're excited to celebrate our love with family and friends. 
-              Mark your calendars and get ready for an unforgettable weekend 
-              in the heart of wine country.
+              We're excited to celebrate our love with family and friends.
+              Mark your calendars and get ready for an unforgettable weekend
+              in the....
             </p>
-            <Link 
-              href="/rsvp" 
+            <Link
+              href="/rsvp"
               className="inline-flex items-center text-accent font-medium hover:text-accent/80 transition-colors"
             >
               View Wedding Details
