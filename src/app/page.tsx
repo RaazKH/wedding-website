@@ -18,20 +18,6 @@ export default function Home() {
     <div className="h-screen overflow-hidden">
       {/* Hero Section */}
       <section className="h-full flex items-center justify-center bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
-        
-        {/* Single centered photo at top - larger and transparent */}
-        <div className="absolute top-16 left-1/2 transform -translate-x-1/2 z-5 opacity-30">
-          <div className="relative w-96 h-72">
-            <Image
-              src="/homepage-photo.png"
-              alt="Raaz and Layli"
-              fill
-              className="object-contain"
-              priority
-            />
-          </div>
-        </div>
-
         <div className="text-center relative z-10 px-4">
           <div className="mb-8">
             <h1 className="font-serif text-5xl sm:text-6xl md:text-8xl font-light text-gray-900 mb-2 drop-shadow-lg">
@@ -42,7 +28,6 @@ export default function Home() {
               are getting married
             </p>
           </div>
-
           <div className="mb-12">
             <p className="text-lg md:text-xl text-gray-700 mb-2 font-medium drop-shadow-sm">
               June 15, 2024
@@ -51,7 +36,6 @@ export default function Home() {
               Napa Valley, California
             </p>
           </div>
-
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="/rsvp"
@@ -67,21 +51,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-
-        {/* Mobile version - same centered photo but smaller and transparent */}
-        <div className="absolute top-12 left-1/2 transform -translate-x-1/2 z-5 lg:hidden opacity-25">
-          <div className="relative w-72 h-54">
-            <Image
-              src="/homepage-photo.png"
-              alt="Raaz and Layli"
-              fill
-              className="object-contain"
-            />
-          </div>
-        </div>
-
       </section>
-
     </div>
   )
 }
