@@ -102,7 +102,7 @@ export default function Story() {
               </div>
             </div>
             <div className="text-center text-gray-600 italic text-xl max-w-2xl mx-auto">
-              <p>Special thanks to Dawning, whose relentless matchmaking (and strategic family recruiting) brought them together!</p>
+              <p>Special thanks to Dawning, whose relentless matchmaking (and strategic family recruiting) brought us together!</p>
             </div>
           </div>
         </div>
