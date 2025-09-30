@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "route": "/rsvp",
+      "serve": "/rsvp"
+    },
+    {
+      "route": "/rsvp/thank-you",
+      "serve": "/rsvp/thank-you"
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  }
+}
