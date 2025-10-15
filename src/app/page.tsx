@@ -8,7 +8,7 @@ export default function Home() {
   useEffect(() => {
     // Prevent body scrolling on homepage
     document.body.style.overflow = 'hidden'
-    
+
     // Clean up when component unmounts
     return () => {
       document.body.style.overflow = 'auto'
@@ -30,10 +30,10 @@ export default function Home() {
           </div>
           <div className="mb-12">
             <p className="text-lg md:text-xl text-gray-700 mb-2 font-medium drop-shadow-sm">
-              June 15, 2024
+              January 24, 2026
             </p>
             <p className="text-base md:text-lg text-gray-500 drop-shadow-sm">
-              Napa Valley, California
+              Loures, Portugal
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

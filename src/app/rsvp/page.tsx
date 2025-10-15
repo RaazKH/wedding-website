@@ -20,20 +20,18 @@ export default function RSVP() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <h3 className="font-serif text-xl mb-4 text-gray-700">Ceremony & Reception</h3>
-                  <p className="text-gray-600 mb-2">Saturday, [DATE]</p>
-                  <p className="text-gray-600 mb-2">[TIME]</p>
-                  <p className="text-gray-600 mb-4">[VENUE NAME]</p>
+                  <p className="text-gray-600 mb-2">Saturday, January 24, 2026</p>
+                  <p className="text-gray-600 mb-2">Time: TBA</p>
+                  <p className="text-gray-600 mb-4">Quinta Condes de Valadares</p>
                   <p className="text-gray-500 text-sm">
-                    [VENUE ADDRESS]<br />
-                    [CITY, STATE ZIP]
+                    Rua do Chafariz, Nº5, A Dos Calvos, 2670-012<br />
+                    Loures, Portugal
                   </p>
                 </div>
                 <div>
                   <h3 className="font-serif text-xl mb-4 text-gray-700">Dress Code</h3>
-                  <p className="text-gray-600 mb-2">[DRESS CODE]</p>
-                  <p className="text-gray-500 text-sm mb-4">
-                    [Any specific dress code details or color preferences]
-                  </p>
+                  <p className="text-gray-600 mb-2">Formal / Black-Tie Optional</p>
+                  <p className="text-gray-500 text-sm mb-4">Details TBA</p>
                 </div>
               </div>
             </div>
@@ -45,7 +43,7 @@ export default function RSVP() {
               We're so excited to celebrate with you!
             </p>
             <p className="text-base text-gray-500 mb-8">
-              Please respond by <strong>[RSVP DATE]</strong> so we can finalize our preparations.
+              Please respond by <strong>December 1, 2025</strong> so we can finalize our preparations.
             </p>
 
             {!showForm ? (
@@ -78,7 +76,7 @@ export default function RSVP() {
                 <div className="space-y-3 text-gray-600">
                   <div>
                     <p className="font-medium">By Air</p>
-                    <p className="text-sm text-gray-500">Nearest airport: [AIRPORT CODE] - [AIRPORT NAME]</p>
+                    <p className="text-sm text-gray-500">Nearest airport: LIS - Humberto Delgado Airport (Lisbon)</p>
                   </div>
                   <div>
                     <p className="font-medium">By Car</p>
@@ -95,16 +93,16 @@ export default function RSVP() {
                 <h3 className="font-serif text-xl mb-4 text-gray-700">Where to Stay</h3>
                 <div className="space-y-4">
                   <div>
-                    <p className="font-medium text-gray-700">[HOTEL NAME 1]</p>
-                    <p className="text-sm text-gray-500 mb-1">[HOTEL ADDRESS]</p>
-                    <p className="text-sm text-gray-500 mb-2">Group rate: $[RATE]/night</p>
-                    <p className="text-xs text-gray-400">Book by [DATE] - Group code: [CODE]</p>
+                    <p className="font-medium text-gray-700">Suggested hotels near Loures</p>
+                    <p className="text-sm text-gray-500 mb-1">Recommendations TBA</p>
+                    <p className="text-sm text-gray-500 mb-2">Group rate: TBA</p>
+                    <p className="text-xs text-gray-400">We'll share group codes if available</p>
                   </div>
                   <div>
-                    <p className="font-medium text-gray-700">[HOTEL NAME 2]</p>
-                    <p className="text-sm text-gray-500 mb-1">[HOTEL ADDRESS]</p>
-                    <p className="text-sm text-gray-500 mb-2">Group rate: $[RATE]/night</p>
-                    <p className="text-xs text-gray-400">Book by [DATE] - Group code: [CODE]</p>
+                    <p className="font-medium text-gray-700">Alternative stays</p>
+                    <p className="text-sm text-gray-500 mb-1">Lisbon city center (~30 min drive)</p>
+                    <p className="text-sm text-gray-500 mb-2">Group rate: TBA</p>
+                    <p className="text-xs text-gray-400">Details coming soon</p>
                   </div>
                 </div>
               </div>
