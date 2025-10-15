@@ -4,7 +4,7 @@ import Navigation from '@/components/Navigation'
 import ScrollToTop from '@/components/ScrollToTop'
 
 export const metadata: Metadata = {
-  title: 'Raaz & Layli | Wedding',
+  title: 'Layli & Raaz | Wedding',
   description: 'Join us for our wedding celebration',
   keywords: ['wedding', 'Raaz', 'Layli', 'celebration'],
 }

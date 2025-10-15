@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation'
 
 const navItems = [
   { name: 'Home', href: '/' },
-  { name: 'Our Story', href: '/story' },
+  { name: 'Our Story', href: '/#story' },
   { name: 'RSVP', href: '/rsvp' },
   { name: 'Registry', href: '/registry' },
 ]
@@ -19,11 +19,11 @@ export default function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Link 
-            href="/" 
+          <Link
+            href="/"
             className="font-serif text-xl font-medium text-gray-900 hover:text-accent transition-colors"
           >
-            R & L
+            L & R
           </Link>
 
           {/* Desktop Navigation */}
@@ -32,9 +32,8 @@ export default function Navigation() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`text-sm font-medium transition-colors hover:text-accent ${
-                  pathname === item.href ? 'text-accent' : 'text-gray-600'
-                }`}
+                className={`text-sm font-medium transition-colors hover:text-accent ${pathname === item.href ? 'text-accent' : 'text-gray-600'
+                  }`}
               >
                 {item.name}
               </Link>
@@ -65,9 +64,8 @@ export default function Navigation() {
                   key={item.href}
                   href={item.href}
                   onClick={() => setIsOpen(false)}
-                  className={`text-base font-medium transition-colors hover:text-accent ${
-                    pathname === item.href ? 'text-accent' : 'text-gray-600'
-                  }`}
+                  className={`text-base font-medium transition-colors hover:text-accent ${pathname === item.href ? 'text-accent' : 'text-gray-600'
+                    }`}
                 >
                   {item.name}
                 </Link>

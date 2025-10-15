@@ -23,7 +23,7 @@ export default function Story() {
                   </div>
                   <Image
                     src="/photo1.jpg"
-                    alt="Raaz and Layli"
+                    alt="Layli and Raaz"
                     fill
                     className="object-cover"
                   />
@@ -41,7 +41,7 @@ export default function Story() {
                   </div>
                   <Image
                     src="/photo2.jpg"
-                    alt="Raaz and Layli"
+                    alt="Layli and Raaz"
                     fill
                     className="object-cover"
                   />
@@ -69,7 +69,7 @@ export default function Story() {
                   </div>
                   <Image
                     src="/photo3.jpg"
-                    alt="Raaz and Layli"
+                    alt="Layli and Raaz"
                     fill
                     className="object-cover"
                   />
@@ -87,7 +87,7 @@ export default function Story() {
                   </div>
                   <Image
                     src="/photo4.jpg"
-                    alt="Raaz and Layli"
+                    alt="Layli and Raaz"
                     fill
                     className="object-cover"
                   />

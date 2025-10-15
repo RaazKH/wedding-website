@@ -2,15 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Lora:wght@400;500;600;700&family=Great+Vibes&display=swap');
 
 @layer base {
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
-    @apply font-sans text-gray-900 antialiased;
+    @apply font-body text-blue antialiased;
   }
 }
 
@@ -18,8 +18,55 @@
   .btn-primary {
     @apply bg-accent text-white px-6 py-3 rounded-md font-medium hover:bg-accent/90 transition-colors duration-200;
   }
-  
+
   .btn-secondary {
     @apply border-2 border-accent text-accent px-6 py-3 rounded-md font-medium hover:bg-accent hover:text-white transition-colors duration-200;
+  }
+
+  /* Color utilities */
+  .color-orange {
+    color: #E09F3E;
+  }
+
+  .color-dark-red {
+    color: #540B0E;
+  }
+
+  .color-blue {
+    color: #335C67;
+  }
+
+  .color-red {
+    color: #9E2A2B;
+  }
+
+  .color-yellow {
+    color: #FFF380;
+  }
+
+  /* Typography utilities */
+  .title {
+    @apply font-serif font-semibold;
+  }
+
+  .subtitle {
+    @apply font-serif font-normal;
+  }
+
+  .cursive-title {
+    @apply font-cursive;
+  }
+
+  .body-text {
+    @apply font-body;
+  }
+
+  .caption {
+    @apply font-body italic text-sm;
+  }
+
+  /* Surface utilities */
+  .box {
+    @apply bg-yellow;
   }
 }
