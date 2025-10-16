@@ -18,10 +18,10 @@ module.exports = {
         accent: '#9E2A2B',
       },
       fontFamily: {
-        serif: ['Playfair Display', 'serif'], // titles
-        cursive: ['Great Vibes', 'cursive'],
-        body: ['Lora', 'serif'],
-        sans: ['Inter', 'sans-serif'],
+        serif: ['var(--font-playfair)', 'serif'],
+        cursive: ['var(--font-great-vibes)', 'cursive'],
+        body: ['var(--font-lora)', 'serif'],
+        sans: ['var(--font-inter)', 'sans-serif'],
       },
     },
   },
