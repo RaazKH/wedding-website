@@ -59,11 +59,25 @@ export default function Home() {
 
       {/* Date / Location + RSVP */}
       <section className="py-16 md:py-24 bg-gray-50">
-        <div className="container mx-auto px-4 text-center">
-          <p className="subtitle color-dark-red text-lg opacity-80 mb-2">January 24, 2026</p>
-          <h3 className="subtitle color-dark-red text-3xl md:text-4xl mb-3">Lisbon, Portugal</h3>
-          <p className="body-text color-blue max-w-2xl mx-auto mb-8">Join us for a day of love, laughter, and great vibes beneath the Portuguese sky.</p>
-          <Link href="/rsvp" className="btn min-w-[180px] inline-block">More info / RSVP</Link>
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <div className="relative aspect-square md:aspect-[4/3] overflow-hidden rounded-lg shadow-lg order-2 md:order-1">
+              <div className="w-full h-full bg-gray-200 flex items-center justify-center">
+                <span className="text-gray-500 text-sm">Photo placeholder</span>
+              </div>
+            </div>
+
+            <div className="order-1 md:order-2 flex items-center justify-center">
+              <div className="text-center">
+                <p className="cursive color-orange text-5xl md:text-6xl opacity-80 mb-2">January 24, 2026</p>
+                <h3 className="subtitle color-blue text-2xl md:text-3xl mb-1">in</h3>
+                <h3 className="subtitle color-blue text-3xl md:text-4xl mb-6">Lisbon, Portugal</h3>
+                <div className="flex justify-center">
+                  <Link href="/rsvp" className="btn min-w-[180px] inline-block">More info / RSVP</Link>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
