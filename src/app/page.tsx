@@ -27,12 +27,12 @@ export default function Home() {
         </div>
         <div className="relative container mx-auto px-4 w-full">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="subtitle color-dark-red uppercase tracking-wide text-5xl sm:text-6xl md:text-7xl mb-3 leading-tight">
+            <h1 className="subtitle color-dark-red uppercase tracking-wide text-9xl sm:text-10xl md:text-11xl mb-3 leading-tight">
               <span className="block">LAYLI</span>
-              <span className="block normal-case cursive-title color-dark-red text-2xl md:text-3xl tracking-normal">and</span>
+              <span className="block normal-case cursive color-dark-red text-4xl md:text-6xl tracking-normal">and</span>
               <span className="block">RAAZ</span>
             </h1>
-            <p className="subtitle color-red uppercase text-lg md:text-xl opacity-80 mb-8">
+            <p className="font-medium subtitle color-red uppercase text-3xl md:text-6xl opacity-80 mb-8">
               are getting married
             </p>
           </div>
@@ -43,13 +43,16 @@ export default function Home() {
       <section className="py-16 md:py-20">
         <div className="container mx-auto px-4">
           <div className="bg-box/40 border border-box/60 rounded-lg p-6 md:p-10 max-w-4xl mx-auto">
-            <h2 className="text-center title color-orange text-2xl md:text-3xl mb-4">Our Special Day</h2>
+            <h2 className="tracking-wide text-center cursive color-orange text-2xl md:text-3xl mb-4">Our Special Day</h2>
             <p className="body-text color-blue mb-6">
               We are so excited to celebrate with you in beautiful Portugal. On this page, you'll find a short overview and quick links. For the full story and details, explore the sections below.
             </p>
+            <p className="tracking-wider text-center cursive color-blue text-1xl md:text-2xl">
+              With Love, Layli & Raaz
+            </p>
           </div>
           <div className="flex justify-center mt-6">
-            <Link href="/registry" className="btn-secondary min-w-[160px] text-center">Gift Registry</Link>
+            <Link href="/registry" className="btn min-w-[160px] text-center">Gift Registry</Link>
           </div>
         </div>
       </section>
@@ -60,20 +63,20 @@ export default function Home() {
           <p className="subtitle color-dark-red text-lg opacity-80 mb-2">January 24, 2026</p>
           <h3 className="subtitle color-dark-red text-3xl md:text-4xl mb-3">Lisbon, Portugal</h3>
           <p className="body-text color-blue max-w-2xl mx-auto mb-8">Join us for a day of love, laughter, and great vibes beneath the Portuguese sky.</p>
-          <Link href="/rsvp" className="btn-primary min-w-[180px] inline-block">More info / RSVP</Link>
+          <Link href="/rsvp" className="btn min-w-[180px] inline-block">More info / RSVP</Link>
         </div>
       </section>
 
       {/* Our Story (inlined) */}
-      <section id="story" className="py-16 md:py-24">
+      <section id="story" className="mt-10">
         <div className="container mx-auto px-4">
-          <h2 className="cursive-title color-orange text-4xl md:text-6xl font-light text-center mb-16">Our Story</h2>
+          <h2 className="cursive color-orange text-6xl md:text-6xl font-light text-center mb-16">Our Story</h2>
 
           <div className="max-w-6xl mx-auto">
             <div className="mb-16">
               <div className="grid lg:grid-cols-3 gap-12 items-start mb-16">
                 <div className="lg:col-span-2">
-                  <h3 className="subtitle color-dark-red text-2xl md:text-3xl font-light mb-4">From Haifa to London</h3>
+                  <h3 className="font-semibold subtitle color-dark-red text-2xl md:text-3xl font-light mb-4">From Haifa to London</h3>
                   <p className="body-text color-blue text-lg leading-relaxed mb-4">After three years in Haifa, Israel, Raaz's smooth return to Chicago in October 2023 was upended by the outbreak of war. Instead of flying home, he found himself on an unexpected detour in London. Little did he know this twist of fate would lead to something extraordinary.</p>
                   <p className="body-text color-blue text-lg leading-relaxed">Meanwhile in London, Layli had been trying to meet someone new. After slowly losing hope in finding the right person on her own, she'd started asking friends if they knew any nice guys worth meeting. Ironically, the one introduction that would change her life came from someone she hadn't even asked.</p>
                 </div>
@@ -99,7 +102,7 @@ export default function Home() {
                   <p className="caption text-center">Rooftop Cinema, a gift from the Semple family</p>
                 </div>
                 <div className="lg:col-span-2">
-                  <h3 className="subtitle color-dark-red text-2xl md:text-3xl font-light mb-4">The Mission</h3>
+                  <h3 className="font-semibold subtitle color-dark-red text-2xl md:text-3xl font-light mb-4">The Mission</h3>
                   <p className="body-text color-blue text-lg leading-relaxed mb-4">While Raaz was planning his transition back to life in Chicago in early 2024, his sister-in-law Dawning was on a mission. She reached out to her friend Layli in London with a message about her brother-in-law who "can be charming and charismatic when he wants to be." Dawning was determined they should meet while Raaz was in London. Both agreed to meet without much enthusiasm. Raaz was focused on finding a new job and settling down. Layli was open to a friendly interaction and had no expectations. The meeting never happened though and Raaz flew back to Chicago.</p>
                   <p className="body-text color-blue text-lg leading-relaxed">But Dawning was persistent. She enlisted reinforcements, winning over Raaz's mother and grandmother with tales of how amazing Layli was. Soon, three generations of women were united in their mission: get Raaz back to London to meet this girl.</p>
                 </div>
@@ -107,7 +110,7 @@ export default function Home() {
 
               <div className="grid lg:grid-cols-3 gap-12 items-start mb-16">
                 <div className="lg:col-span-2">
-                  <h3 className="subtitle color-dark-red text-2xl md:text-3xl font-light mb-4">A Casual Meeting in Piccadilly</h3>
+                  <h3 className="font-semibold subtitle color-dark-red text-2xl md:text-3xl font-light mb-4">A Casual Meeting in Piccadilly</h3>
                   <p className="body-text color-blue text-lg leading-relaxed mb-4">When a friend's wedding brought Raaz back to London in February 2025, he finally relented. His plan? Meet Layli briefly, then report back to Dawning about how wrong she was. He told his cousin Rehan he'd probably be back in an hour.</p>
                   <p className="body-text color-blue text-lg leading-relaxed">They met outside a Boots pharmacy in Piccadilly Circus with no real plan except to "walk around and see things." One hour turned into two, then three, then four. By 11pm, they were still talking, but with sore feet and nowhere to sit, they finally called it a night.</p>
                 </div>
@@ -133,10 +136,10 @@ export default function Home() {
                   <p className="caption text-center">$14 funnel cake!?! What has this world come to.</p>
                 </div>
                 <div className="lg:col-span-2">
-                  <h3 className="subtitle color-dark-red text-2xl md:text-3xl font-light mb-4">The Two-Month Trial</h3>
+                  <h3 className="font-semibold subtitle color-dark-red text-2xl md:text-3xl font-light mb-4">This Was It</h3>
                   <p className="body-text color-blue text-lg leading-relaxed mb-4">As Raaz headed back to Chicago, they agreed to stay in touch as friends. Daily texting turned into audio recordings, then phone calls, and finally video calls. Within a month, they both had to admit the truth: they had feelings for each other. When Layli asked Raaz to visit again, they realized they'd become more than friends.</p>
-                  <p className="body-text color-blue text-lg leading-relaxed mb-4">Being practical people, neither wanted a long-term, long-distance relationship. They made a bold decision: spend two months together intensively to know if this was "it." Raaz flew to London for six weeks, even traveling to Switzerland to meet Layli's parents. Then Layli came to Chicago for two weeks to meet Raaz's family.</p>
-                  <p className="body-text color-blue text-lg leading-relaxed">By the end of their two-month investigation, they had their answer. This was it.</p>
+                  <p className="body-text color-blue text-lg leading-relaxed mb-4">Being practical people, neither wanted a long-term, long-distance relationship. They made a bold decision: spend time together intensively to know if this was "it." Raaz flew to London for six weeks, even traveling to Switzerland to meet Layli's parents. Then Layli came to Chicago for two weeks to meet Raaz's family.</p>
+                  <p className="body-text color-blue text-lg leading-relaxed">By the end of their joint trip, they had their answer. This was it.</p>
                 </div>
               </div>
 

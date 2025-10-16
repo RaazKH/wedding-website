@@ -13,11 +13,7 @@
 }
 
 @layer components {
-  .btn-primary {
-    @apply bg-accent text-white px-6 py-3 rounded-md font-medium hover:bg-accent/90 transition-colors duration-200;
-  }
-
-  .btn-secondary {
+  .btn {
     @apply border-2 border-accent text-accent px-6 py-3 rounded-md font-medium hover:bg-accent hover:text-white transition-colors duration-200;
   }
 
@@ -51,7 +47,7 @@
     @apply font-serif font-normal;
   }
 
-  .cursive-title {
+  .cursive {
     @apply font-cursive;
   }
 
