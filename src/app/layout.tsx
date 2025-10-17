@@ -50,12 +50,27 @@ export default function RootLayout({
       className={`scroll-smooth ${playfairDisplay.variable} ${greatVibes.variable} ${lora.variable} ${inter.variable}`}
       data-scroll-behavior="smooth"
     >
-      <body className="min-h-screen bg-white">
+      <body className="min-h-screen bg-white flex flex-col">
         <ScrollToTop />
         <Navigation />
-        <div className="pt-16">
+        <div className="pt-16 flex-grow">
           {children}
         </div>
+        <footer className="py-4 text-right body-text text-xs color-blue/60 border-t border-gray-100">
+          <div className="container mx-auto px-4">
+            <p>
+              Website design by Bahar Goel • {' '}
+              <a
+                href="https://www.instagram.com/bahardoodles"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:color-red transition-colors"
+              >
+                @bahardoodles
+              </a>
+            </p>
+          </div>
+        </footer>
       </body>
     </html>
   )
