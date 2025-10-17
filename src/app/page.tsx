@@ -17,13 +17,13 @@ export default function Home() {
       <section className="relative h-[90vh] min-h-[560px] flex items-center">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1625668350881-18dac2bc06c1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470&auto=format&fit=crop"
-            alt="Portugal coastal cityscape background"
+            src="https://images.unsplash.com/photo-1496661415325-ef852f9e8e7c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1827"
+            alt="Beautiful Portugal landscape"
             fill
             priority
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-white/60 md:bg-white/50"></div>
+          <div className="absolute inset-0 bg-white/70 md:bg-white/60"></div>
         </div>
         <div className="relative container mx-auto px-4 w-full">
           <div className="text-center max-w-3xl mx-auto">
@@ -62,9 +62,12 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             <div className="relative aspect-square md:aspect-[4/3] overflow-hidden rounded-lg shadow-lg order-2 md:order-1">
-              <div className="w-full h-full bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-500 text-sm">Photo placeholder</span>
-              </div>
+              <Image
+                src="https://images.unsplash.com/photo-1501927023255-9063be98970c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1548"
+                alt="Lisbon cityscape during daytime"
+                fill
+                className="object-cover"
+              />
             </div>
 
             <div className="order-1 md:order-2 flex items-center justify-center">
