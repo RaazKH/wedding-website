@@ -71,7 +71,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <Link
             href="/"
-            className="font-serif text-xl font-medium text-gray-900 hover:text-accent transition-colors"
+            className="font-serif text-xl font-medium color-dark-red hover:color-red transition-colors"
           >
             L & R
           </Link>
@@ -83,7 +83,7 @@ export default function Navigation() {
                 key={item.href}
                 href={item.href}
                 onClick={(e) => handleNavClick(e, item.href)}
-                className={`text-sm font-medium transition-colors hover:text-accent ${pathname === item.href ? 'text-accent' : 'text-gray-600'
+                className={`text-sm font-medium transition-colors hover:color-red ${pathname === item.href ? 'color-red' : 'color-blue'
                   }`}
               >
                 {item.name}
@@ -94,7 +94,7 @@ export default function Navigation() {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 rounded-md text-gray-600 hover:text-accent transition-colors"
+            className="md:hidden p-2 rounded-md color-blue hover:color-red transition-colors"
           >
             <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               {isOpen ? (
@@ -115,7 +115,7 @@ export default function Navigation() {
                   key={item.href}
                   href={item.href}
                   onClick={(e) => handleNavClick(e, item.href)}
-                  className={`text-base font-medium transition-colors hover:text-accent ${pathname === item.href ? 'text-accent' : 'text-gray-600'
+                  className={`text-base font-medium transition-colors hover:color-red ${pathname === item.href ? 'color-red' : 'color-blue'
                     }`}
                 >
                   {item.name}
