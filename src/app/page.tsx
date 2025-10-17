@@ -52,7 +52,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex justify-center mt-6">
-            <Link href="/registry" className="btn w-[150px] text-sm text-center">Gift Registry</Link>
+            <Link href="/registry" className="bg-red text-white py-3 rounded-lg font-medium text-sm hover:bg-red/90 focus:outline-none focus:ring-2 focus:ring-red focus:ring-offset-2 transition-colors shadow-sm inline-block w-[150px] text-center">Gift Registry</Link>
           </div>
         </div>
       </section>
@@ -73,7 +73,7 @@ export default function Home() {
                 <h3 className="subtitle color-blue text-1xl mb-1">in</h3>
                 <h3 className="subtitle color-blue text-2xl mb-6">Lisbon, Portugal</h3>
                 <div className="flex justify-center">
-                  <Link href="/rsvp" className="btn maw-[150px] text-sm inline-block">More info / RSVP</Link>
+                  <Link href="/rsvp" className="bg-red text-white py-3 rounded-lg font-medium text-sm hover:bg-red/90 focus:outline-none focus:ring-2 focus:ring-red focus:ring-offset-2 transition-colors shadow-sm inline-block w-[150px] text-center">More info / RSVP</Link>
                 </div>
               </div>
             </div>

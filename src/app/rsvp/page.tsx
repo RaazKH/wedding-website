@@ -15,7 +15,7 @@ export default function RSVP() {
 
         <div className="max-w-4xl mx-auto space-y-16">
           <section className="text-center">
-            <h2 className="font-serif uppercase color-dark-red text-3xl font-light mb-8">The Celebration</h2>
+            <h2 className="font-serif uppercase color-dark-red text-2xl font-light mb-8">The Celebration</h2>
             <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8">
               <div className="space-y-8">
                 <div>
@@ -38,7 +38,7 @@ export default function RSVP() {
           </section>
 
           <section className="text-center">
-            <h2 className="text-center font-serif uppercase color-dark-red text-3xl font-light mb-8">Travel & Accommodations</h2>
+            <h2 className="text-center font-serif uppercase color-dark-red text-2xl font-light mb-8">Travel & Accommodations</h2>
             <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8">
               <div className="space-y-8">
                 <div>
@@ -81,7 +81,7 @@ export default function RSVP() {
           </section>
 
           <section className="text-center">
-            <h2 className="font-serif uppercase color-dark-red text-3xl font-light mb-8">Please Respond by October 31st</h2>
+            <h2 className="font-serif uppercase color-dark-red text-2xl font-light mb-8">Please Respond by October 31st</h2>
             <p className="text-lg text-gray-600 mb-4">
               We're so excited to celebrate with you!
             </p>
@@ -92,7 +92,7 @@ export default function RSVP() {
             {!showForm ? (
               <button
                 onClick={() => setShowForm(true)}
-                className="bg-accent text-white px-8 py-4 rounded-lg font-medium text-lg hover:bg-accent/90 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 transition-colors shadow-sm"
+                className="bg-red text-white px-8 py-4 rounded-lg font-medium text-lg hover:bg-red/90 focus:outline-none focus:ring-2 focus:ring-red focus:ring-offset-2 transition-colors shadow-sm"
               >
                 RSVP Now
               </button>
