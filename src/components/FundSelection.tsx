@@ -12,18 +12,12 @@ const funds = [
     title: 'Honeymoon Fund',
     description: 'Help us create unforgettable memories on our dream honeymoon adventure together.',
     icon: '🌴',
-    gradient: 'from-rose-50 to-pink-50',
-    border: 'border-rose-200',
-    hover: 'hover:border-rose-300 hover:shadow-rose-100'
   },
   {
     id: 'newlife' as Fund,
     title: 'New Life Fund',
     description: 'Help us build our home, wherever in the world that may be.',
     icon: '🏠',
-    gradient: 'from-blue-50 to-indigo-50',
-    border: 'border-blue-200',
-    hover: 'hover:border-blue-300 hover:shadow-blue-100'
   }
 ]
 
@@ -34,26 +28,35 @@ export default function FundSelection({ onSelectFund }: FundSelectionProps) {
         <button
           key={fund.id}
           onClick={() => onSelectFund(fund.id)}
-          className={`
-            bg-gradient-to-br ${fund.gradient} 
-            rounded-2xl p-8 border-2 ${fund.border}
-            transition-all duration-300 
-            hover:shadow-xl ${fund.hover}
+          style={{
+            background: 'linear-gradient(to bottom right, #fefce8, #fef9c3)',
+            borderColor: '#fef08a'
+          }}
+          className="
+            rounded-2xl p-6 border-2
+            transition-all duration-300
+            hover:shadow-xl
             text-left group cursor-pointer
             transform hover:scale-105
-          `}
+          "
+          onMouseEnter={(e) => {
+            e.currentTarget.style.borderColor = '#fde047'
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.borderColor = '#fef08a'
+          }}
         >
           <div className="text-center">
-            <div className="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">
+            <div className="text-5xl mb-3 group-hover:scale-110 transition-transform duration-300">
               {fund.icon}
             </div>
-            <h2 className="font-serif text-3xl font-light text-gray-900 mb-4">
+            <h2 className="font-serif text-2xl font-light color-red mb-3">
               {fund.title}
             </h2>
-            <p className="text-gray-600 text-lg leading-relaxed mb-6">
+            <p className="body-text color-blue text-base leading-relaxed mb-4">
               {fund.description}
             </p>
-            <div className="inline-flex items-center text-accent font-medium group-hover:text-accent/80 transition-colors">
+            <div className="inline-flex items-center color-red font-medium group-hover:text-red/80 transition-colors text-sm">
               Select Fund
               <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

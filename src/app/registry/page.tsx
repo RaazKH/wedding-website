@@ -14,15 +14,15 @@ export default function Registry() {
       <div className="container mx-auto px-4 max-w-4xl">
         {/* Header Section */}
         <div className="text-center">
-          <h1 className="font-serif text-4xl md:text-6xl font-light text-gray-900 mb-8">
+          <h1 className="subtitle color-dark-red text-4xl mb-8">
             Gift Registry
           </h1>
           <div className="max-w-3xl mx-auto">
-            <p className="text-lg md:text-xl text-gray-600 leading-relaxed mb-6">
+            <p className="body-text text-base color-blue leading-relaxed mb-10">
               We're still in the process of figuring out our future home! Since we don't know which country we'll be in, cash gifts help us start our married life anywhere love takes us.
             </p>
             {!selectedFund && (
-              <p className="text-base text-gray-500 font-medium">
+              <p className="body-text text-sm color-blue font-medium">
                 Choose a fund below to see payment options
               </p>
             )}
@@ -31,7 +31,7 @@ export default function Registry() {
 
         {/* Fund Selection or Payment Methods */}
         <div className="max-w-4xl mx-auto">
-          <div className="h-10 mb-6" />
+          <div className="h-10" />
 
           {!selectedFund ? (
             <FundSelection onSelectFund={setSelectedFund} />
