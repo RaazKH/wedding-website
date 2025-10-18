@@ -8,11 +8,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        accent: '#D4A574', // Elegant gold accent color
+        // Design tokens
+        orange: '#E09F3E',
+        'dark-red': '#540B0E',
+        blue: '#335C67',
+        red: '#9E2A2B',
+        yellow: '#FFF380',
+        // Keep accent mapped to red for existing utilities
+        accent: '#9E2A2B',
       },
       fontFamily: {
-        serif: ['Playfair Display', 'serif'],
-        sans: ['Inter', 'sans-serif'],
+        serif: ['var(--font-playfair)', 'serif'],
+        cursive: ['var(--font-great-vibes)', 'cursive'],
+        body: ['var(--font-lora)', 'serif'],
+        sans: ['var(--font-inter)', 'sans-serif'],
       },
     },
   },
