@@ -17,7 +17,7 @@ export default function Home() {
       <section className="relative h-[90vh] min-h-[560px] flex items-center">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1496661415325-ef852f9e8e7c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1827"
+            src="/hero-background.jpg"
             alt="Beautiful Portugal landscape"
             fill
             priority
