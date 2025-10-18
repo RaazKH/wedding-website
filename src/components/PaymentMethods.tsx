@@ -117,12 +117,12 @@ export default function PaymentMethods({ fund, onBack }: PaymentMethodsProps) {
               }
             }}
           >
-            <div className="flex items-center justify-between">
-              <div className="flex items-center space-x-4">
+            <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
+              <div className="flex flex-col items-center gap-2 sm:flex-row sm:items-center sm:space-x-4">
                 <div className="text-3xl">{method.icon}</div>
-                <div>
+                <div className="text-center sm:text-left">
                   <div className="font-semibold text-gray-800 text-lg">{method.name}</div>
-                  <div className="body-text color-blue mt-1">
+                  <div className="body-text color-blue mt-1 text-sm sm:text-base">
                     {method.displayValue}
                   </div>
                 </div>
@@ -130,7 +130,7 @@ export default function PaymentMethods({ fund, onBack }: PaymentMethodsProps) {
 
               <button
                 className={`
-                  px-4 py-2 rounded-full font-medium transition-all duration-200 active:scale-95
+                  w-full sm:w-auto px-6 py-2.5 rounded-full font-medium transition-all duration-200 active:scale-95 whitespace-nowrap text-sm sm:text-base
                   ${copiedItem === method.name
                     ? 'bg-red text-white'
                     : 'color-red border-2 border-red/20 bg-white hover:bg-red hover:text-white'
