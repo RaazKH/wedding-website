@@ -28,7 +28,7 @@ export default function Home() {
         <div className="relative container mx-auto px-4 w-full">
           <div className="text-center max-w-3xl mx-auto">
             <div className="subtitle color-dark-red uppercase tracking-wide text-8xl sm:text-9xl md:text-10l mb-9">
-              <h1 className="leading-none -mb-5">LAYLI</h1>
+              <h1 className="leading-none -mb-3">LAYLI</h1>
               <p className="normal-case cursive color-dark-red text-7xl tracking-normal">and</p>
               <h2 className="leading-none -mt-6">RAAZ</h2>
             </div>
