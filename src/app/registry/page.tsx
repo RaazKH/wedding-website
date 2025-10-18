@@ -14,7 +14,7 @@ export default function Registry() {
       <div className="container mx-auto px-4 max-w-4xl">
         {/* Header Section */}
         <div className="text-center">
-          <h1 className="subtitle color-dark-red text-4xl mb-8">
+          <h1 className="cursive color-orange text-5xl md:text-6xl mb-8">
             Gift Registry
           </h1>
           <div className="max-w-3xl mx-auto">

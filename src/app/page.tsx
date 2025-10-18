@@ -43,7 +43,7 @@ export default function Home() {
       <section className="py-16 md:py-20">
         <div className="container mx-auto px-4">
           <div className="bg-box/40 border border-box/60 rounded-lg p-6 md:p-10 max-w-4xl mx-auto">
-            <h2 className="text-center cursive color-orange text-2xl md:text-3xl mb-4">Our Special Day</h2>
+            <h2 className="text-center cursive color-orange text-3xl md:text-4xl mb-4">Our Special Day</h2>
             <p className="body-text text-center color-blue mb-6">
               We are so excited to celebrate with you in beautiful Portugal. On this page, you'll find a short overview and quick links. For the full story and details, explore the sections below.
             </p>
@@ -52,7 +52,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex justify-center mt-6">
-            <Link href="/registry" className="bg-red text-white py-3 rounded-lg font-medium text-sm hover:bg-red/90 focus:outline-none focus:ring-2 focus:ring-red focus:ring-offset-2 transition-colors shadow-sm inline-block w-[150px] text-center">Gift Registry</Link>
+            <Link href="/registry" className="bg-red text-white py-3 rounded-lg text-sm hover:bg-red/90 focus:outline-none focus:ring-2 focus:ring-red focus:ring-offset-2 transition-colors shadow-sm inline-block w-[150px] text-center">Gift Registry</Link>
           </div>
         </div>
       </section>
@@ -87,7 +87,7 @@ export default function Home() {
       {/* Our Story */}
       <section id="story" className="mt-20">
         <div className="container mx-auto px-4">
-          <h2 className="cursive color-orange text-6xl md:text-6xl font-light text-center mb-10">Our Story</h2>
+          <h2 className="cursive color-orange text-6xl font-light text-center mb-10">Our Story</h2>
 
           <div className="max-w-6xl mx-auto">
             <div className="mb-16">
