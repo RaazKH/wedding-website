@@ -28,11 +28,6 @@ export default function RSVP() {
                     Loures, Portugal
                   </p>
                 </div>
-                <div>
-                  <h3 className="font-serif text-xl mb-4 color-blue">Dress Code</h3>
-                  <p className="color-blue mb-2">Formal / Black-Tie Optional</p>
-                  <p className="color-blue text-sm mb-4">Details TBA</p>
-                </div>
               </div>
             </div>
           </section>
@@ -49,12 +44,8 @@ export default function RSVP() {
                       <p className="text-sm color-blue">Nearest airport: LIS - Humberto Delgado Airport (Lisbon)</p>
                     </div>
                     <div>
-                      <p className="font-medium">By Car</p>
-                      <p className="text-sm color-blue">Parking available at venue</p>
-                    </div>
-                    <div>
-                      <p className="font-medium">Transportation</p>
-                      <p className="text-sm color-blue">[Transportation details if providing shuttle service]</p>
+                      <p className="font-medium">By Car or Taxi</p>
+                      <p className="text-sm color-blue">Venue is a 20 minute drive from the airport.<br/> Uber and Bolt charge around 15 euros.</p>
                     </div>
                   </div>
                 </div>

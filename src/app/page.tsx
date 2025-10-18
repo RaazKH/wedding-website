@@ -72,7 +72,7 @@ export default function Home() {
 
             <div className="order-1 md:order-2 flex items-center justify-center">
               <div className="text-center">
-                <p className="cursive color-orange text-4xl opacity-80 mb-2">January 24, 2026</p>
+                <p className="cursive color-orange text-4xl opacity-80 mb-2">Saturday<br/>January 24, 2026</p>
                 <h3 className="subtitle color-blue text-1xl mb-1">in</h3>
                 <h3 className="subtitle color-blue text-xl mb-6">Lisbon, Portugal</h3>
                 <div className="flex justify-center">
