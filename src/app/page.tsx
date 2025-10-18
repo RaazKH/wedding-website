@@ -27,11 +27,11 @@ export default function Home() {
         </div>
         <div className="relative container mx-auto px-4 w-full">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="subtitle color-dark-red uppercase tracking-wide text-8xl sm:text-9xl md:text-10l mb-3 leading-tight">
-              <span className="block">LAYLI</span>
-              <span className="block normal-case cursive color-dark-red text-7xl tracking-normal">and</span>
-              <span className="block">RAAZ</span>
-            </h1>
+            <div className="subtitle color-dark-red uppercase tracking-wide text-8xl sm:text-9xl md:text-10l mb-9">
+              <h1 className="leading-none -mb-5">LAYLI</h1>
+              <p className="normal-case cursive color-dark-red text-7xl tracking-normal">and</p>
+              <h2 className="leading-none -mt-6">RAAZ</h2>
+            </div>
             <p className="font-medium subtitle color-red uppercase text-2xl md:text-5xl opacity-80 mb-8">
               are getting married
             </p>
@@ -74,7 +74,7 @@ export default function Home() {
               <div className="text-center">
                 <p className="cursive color-orange text-4xl opacity-80 mb-2">January 24, 2026</p>
                 <h3 className="subtitle color-blue text-1xl mb-1">in</h3>
-                <h3 className="subtitle color-blue text-2xl mb-6">Lisbon, Portugal</h3>
+                <h3 className="subtitle color-blue text-xl mb-6">Lisbon, Portugal</h3>
                 <div className="flex justify-center">
                   <Link href="/rsvp" className="bg-red text-white py-3 rounded-lg font-medium text-sm hover:bg-red/90 focus:outline-none focus:ring-2 focus:ring-red focus:ring-offset-2 transition-colors shadow-sm inline-block w-[150px] text-center">More info / RSVP</Link>
                 </div>
@@ -92,9 +92,9 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             <div className="mb-16">
               <div className="mb-16">
-                <h3 className="font-semibold subtitle color-dark-red text-xl font-light mb-6 text-center">From Haifa to London</h3>
-                <p className="body-text color-blue text-lg leading-relaxed mb-4">After three years in Haifa, Israel, Raaz's smooth return to Chicago in October 2023 was upended by the outbreak of war. Instead of flying home, he found himself on an unexpected detour in London. Little did he know this twist of fate would lead to something extraordinary.</p>
-                <p className="body-text color-blue text-lg leading-relaxed mb-8">Meanwhile in London, Layli had been trying to meet someone new. After slowly losing hope in finding the right person on her own, she'd started asking friends if they knew any nice guys worth meeting. Ironically, the one introduction that would change her life came from someone she hadn't even asked.</p>
+                <h3 className="font-semibold subtitle color-dark-red text-2xl font-light mb-5 text-center">From Haifa to London</h3>
+                <p className="body-text color-blue leading-relaxed mb-4">After three years in Haifa, Israel, Raaz's smooth return to Chicago in October 2023 was upended by the outbreak of war. Instead of flying home, he found himself on an unexpected detour in London. Little did he know this twist of fate would lead to something extraordinary.</p>
+                <p className="body-text color-blue leading-relaxed mb-8">Meanwhile in London, Layli had been trying to meet someone new. After slowly losing hope in finding the right person on her own, she'd started asking friends if they knew any nice guys worth meeting. Ironically, the one introduction that would change her life came from someone she hadn't even asked.</p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
@@ -119,15 +119,15 @@ export default function Home() {
               </div>
 
               <div className="mb-16">
-                <h3 className="font-semibold subtitle color-dark-red text-xl font-light mb-6 text-center">The Mission</h3>
-                <p className="body-text color-blue text-lg leading-relaxed mb-4">While Raaz was planning his transition back to life in Chicago in early 2024, his sister-in-law Dawning was on a mission. She reached out to her friend Layli in London with a message about her brother-in-law who "can be charming and charismatic when he wants to be." Dawning was determined they should meet while Raaz was in London. Both agreed to meet without much enthusiasm. Raaz was focused on finding a new job and settling down. Layli was open to a friendly interaction and had no expectations. The meeting never happened though and Raaz flew back to Chicago.</p>
-                <p className="body-text color-blue text-lg leading-relaxed">But Dawning was persistent. She enlisted reinforcements, winning over Raaz's mother and grandmother with tales of how amazing Layli was. Soon, three generations of women were united in their mission: get Raaz back to London to meet this girl.</p>
+                <h3 className="font-semibold subtitle color-dark-red text-2xl font-light mb-5 text-center">The Mission</h3>
+                <p className="body-text color-blue leading-relaxed mb-4">While Raaz was planning his transition back to life in Chicago in early 2024, his sister-in-law Dawning was on a mission. She reached out to her friend Layli in London with a message about her brother-in-law who "can be charming and charismatic when he wants to be." Dawning was determined they should meet while Raaz was in London. Both agreed to meet without much enthusiasm. Raaz was focused on finding a new job and settling down. Layli was open to a friendly interaction and had no expectations. The meeting never happened though and Raaz flew back to Chicago.</p>
+                <p className="body-text color-blue leading-relaxed">But Dawning was persistent. She enlisted reinforcements, winning over Raaz's mother and grandmother with tales of how amazing Layli was. Soon, three generations of women were united in their mission: get Raaz back to London to meet this girl.</p>
               </div>
 
               <div className="mb-16">
-                <h3 className="font-semibold subtitle color-dark-red text-xl font-light mb-6 text-center">A Casual Meeting in Piccadilly</h3>
-                <p className="body-text color-blue text-lg leading-relaxed mb-4">When a friend's wedding brought Raaz back to London in February 2025, he finally relented. His plan? Meet Layli briefly, then report back to Dawning about how wrong she was. He told his cousin Rehan he'd probably be back in an hour.</p>
-                <p className="body-text color-blue text-lg leading-relaxed mb-8">They met outside a Boots pharmacy in Piccadilly Circus with no real plan except to "walk around and see things." One hour turned into two, then three, then four. By 11pm, they were still talking, but with sore feet and nowhere to sit, they finally called it a night.</p>
+                <h3 className="font-semibold subtitle color-dark-red text-2xl font-light mb-5 text-center">A Casual Meeting in Piccadilly</h3>
+                <p className="body-text color-blue leading-relaxed mb-4">When a friend's wedding brought Raaz back to London in February 2025, he finally relented. His plan? Meet Layli briefly, then report back to Dawning about how wrong she was. He told his cousin Rehan he'd probably be back in an hour.</p>
+                <p className="body-text color-blue leading-relaxed mb-8">They met outside a Boots pharmacy in Piccadilly Circus with no real plan except to "walk around and see things." One hour turned into two, then three, then four. By 11pm, they were still talking, but with sore feet and nowhere to sit, they finally called it a night.</p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
@@ -152,10 +152,10 @@ export default function Home() {
               </div>
 
               <div className="mb-16">
-                <h3 className="font-semibold subtitle color-dark-red text-xl font-light mb-6 text-center">This Was It</h3>
-                <p className="body-text color-blue text-lg leading-relaxed mb-4">As Raaz headed back to Chicago, they agreed to stay in touch as friends. Daily texting turned into audio recordings, then phone calls, and finally video calls. Within a month, they both had to admit the truth: they had feelings for each other. When Layli asked Raaz to visit again, they realized they'd become more than friends.</p>
-                <p className="body-text color-blue text-lg leading-relaxed mb-4">Being practical people, neither wanted a long-term, long-distance relationship. They made a bold decision: spend time together intensively to know if this was "it." Raaz flew to London for six weeks, even traveling to Switzerland to meet Layli's parents. Then Layli came to Chicago for two weeks to meet Raaz's family.</p>
-                <p className="body-text color-blue text-lg leading-relaxed">By the end of their joint trip, they had their answer. This was it.</p>
+                <h3 className="font-semibold subtitle color-dark-red text-2xl font-light mb-5 text-center">This Was It</h3>
+                <p className="body-text color-blue leading-relaxed mb-4">As Raaz headed back to Chicago, they agreed to stay in touch as friends. Daily texting turned into audio recordings, then phone calls, and finally video calls. Within a month, they both had to admit the truth: they had feelings for each other. When Layli asked Raaz to visit again, they realized they'd become more than friends.</p>
+                <p className="body-text color-blue leading-relaxed mb-4">Being practical people, neither wanted a long-term, long-distance relationship. They made a bold decision: spend time together intensively to know if this was "it." Raaz flew to London for six weeks, even traveling to Switzerland to meet Layli's parents. Then Layli came to Chicago for two weeks to meet Raaz's family.</p>
+                <p className="body-text color-blue leading-relaxed">By the end of their joint trip, they had their answer. This was it.</p>
               </div>
 
               <div className="text-center caption text-base max-w-2xl mx-auto">

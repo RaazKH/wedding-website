@@ -56,9 +56,9 @@ export default function RootLayout({
         <div className="pt-16 flex-grow">
           {children}
         </div>
-        <footer className="py-4 text-right body-text text-xs color-blue/60 border-t border-gray-100">
+        <footer className="py-4 body-text text-xs color-blue/60 border-t border-gray-100">
           <div className="container mx-auto px-4">
-            <p className="flex items-center justify-end gap-1">
+            <p className="flex items-center justify-center gap-1">
               <span>Website design by</span>
               <a
                 href="https://bahardoodles.com"

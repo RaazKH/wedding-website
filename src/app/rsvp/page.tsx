@@ -81,12 +81,12 @@ export default function RSVP() {
           </section>
 
           <section className="text-center">
-            <h2 className="font-serif uppercase color-dark-red text-2xl font-light mb-8">Please Respond by October 31st</h2>
+            <h2 className="font-serif uppercase color-dark-red text-2xl font-light mb-8">Please Respond</h2>
             <p className="text-lg text-gray-600 mb-4">
               We're so excited to celebrate with you!
             </p>
             <p className="text-base text-gray-500 mb-8">
-              Please respond by <strong>December 1, 2025</strong> so we can finalize our preparations.
+              Please respond by <strong>October 31, 2025</strong> so we can finalize our preparations.
             </p>
 
             {!showForm ? (
