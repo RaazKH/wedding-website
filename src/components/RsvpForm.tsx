@@ -110,7 +110,7 @@ export default function RsvpForm() {
       <form onSubmit={handleSubmit} className="space-y-8">
         {/* Name Field */}
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="name" className="block text-sm font-medium color-blue mb-2">
             Your Name *
           </label>
           <input
@@ -132,7 +132,7 @@ export default function RsvpForm() {
 
         {/* Email Field */}
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="email" className="block text-sm font-medium color-blue mb-2">
             Your Email *
           </label>
           <input
@@ -155,7 +155,7 @@ export default function RsvpForm() {
         {/* Attending Field */}
         <div>
           <fieldset>
-            <legend className="text-sm font-medium text-gray-700 mb-3">
+            <legend className="text-sm font-medium color-blue mb-3 w-full text-center">
               Will you be attending? *
             </legend>
             <div className="space-y-3">
@@ -171,7 +171,7 @@ export default function RsvpForm() {
                   }))}
                   className="h-4 w-4 text-accent border-gray-300 focus:ring-accent focus:ring-offset-0"
                 />
-                <span className="ml-3 text-gray-700 font-medium">Yes, I'll be there! 🎉</span>
+                <span className="ml-3 color-blue font-medium">Yes, I'll be there! 🎉</span>
               </label>
               <label className="flex items-center p-4 border border-gray-200 rounded-xl hover:bg-gray-50 cursor-pointer transition-colors">
                 <input
@@ -186,7 +186,7 @@ export default function RsvpForm() {
                   }))}
                   className="h-4 w-4 text-accent border-gray-300 focus:ring-accent focus:ring-offset-0"
                 />
-                <span className="ml-3 text-gray-700 font-medium">Sorry, I can't make it</span>
+                <span className="ml-3 color-blue font-medium">Sorry, I can't make it</span>
               </label>
             </div>
             {errors.attending && (
@@ -203,7 +203,7 @@ export default function RsvpForm() {
             <div className="space-y-3">
               {formData.attending_names.length > 0 && (
                 <>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-sm font-medium color-blue mb-2">
                     Additional attendees:
                   </label>
                   <div className="space-y-3">
@@ -248,7 +248,7 @@ export default function RsvpForm() {
 
         {/* Comments Field */}
         <div>
-          <label htmlFor="comments" className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="comments" className="block text-sm font-medium color-blue mb-2">
             Any comments?
           </label>
           <textarea
