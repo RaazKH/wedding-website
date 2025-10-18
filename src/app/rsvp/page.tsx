@@ -9,7 +9,7 @@ export default function RSVP() {
   return (
     <main className="min-h-screen py-16">
       <div className="container mx-auto px-4">
-        <h1 className="cursive color-orange text-5xl md:text-6xl font-bold text-center mb-16">
+        <h1 className="cursive color-orange text-5xl md:text-6xl text-center mb-16">
           Wedding Details
         </h1>
 

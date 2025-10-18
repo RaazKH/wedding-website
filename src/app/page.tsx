@@ -43,11 +43,11 @@ export default function Home() {
       <section className="py-16 md:py-20">
         <div className="container mx-auto px-4">
           <div className="bg-box/40 border border-box/60 rounded-lg p-6 md:p-10 max-w-4xl mx-auto">
-            <h2 className="tracking-wide text-center cursive color-orange text-2xl md:text-3xl mb-4">Our Special Day</h2>
+            <h2 className="text-center cursive color-orange text-2xl md:text-3xl mb-4">Our Special Day</h2>
             <p className="body-text text-center color-blue mb-6">
               We are so excited to celebrate with you in beautiful Portugal. On this page, you'll find a short overview and quick links. For the full story and details, explore the sections below.
             </p>
-            <p className="tracking-wider text-center cursive color-blue text-1xl md:text-2xl">
+            <p className="text-center cursive color-blue text-1xl md:text-2xl">
               With Love, Layli & Raaz
             </p>
           </div>
