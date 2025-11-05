@@ -77,7 +77,7 @@ export default function RSVP() {
               We're so excited to celebrate with you!
             </p>
             <p className="text-base color-blue mb-8">
-              Please respond by <strong>October 31, 2025</strong> so we can finalize our preparations.
+              Please respond by <strong>14 November 2025</strong> so we can finalize our preparations.
             </p>
 
             {!showForm ? (
