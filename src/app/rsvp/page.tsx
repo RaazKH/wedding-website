@@ -54,16 +54,22 @@ export default function RSVP() {
                   <h3 className="font-serif text-xl mb-4 color-blue">Where to Stay</h3>
                   <div className="space-y-4">
                     <div>
-                      <p className="font-medium color-blue">Suggested hotels near Loures</p>
-                      <p className="text-sm color-blue mb-1">Recommendations TBA</p>
-                      <p className="text-sm color-blue mb-2">Group rate: TBA</p>
-                      <p className="text-xs color-blue">We'll share group codes if available</p>
+                      <p className="font-medium color-blue">Suggested hotel (where we will be staying)</p>
+                      <p className="text-sm color-blue mb-1">Jupiter Lisboa Hotel</p>
+                      <p className="text-sm color-blue mb-1">Group rate code: <span className="font-medium">RaazLayli</span></p>
+                      <a
+                        href="https://www.jupiterhotelgroup.com/en/page/lisboa/jupiter-lisboa-hotel-rooftop-spa.6634.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs underline color-blue"
+                      >
+                        View hotel website
+                      </a>
                     </div>
                     <div>
                       <p className="font-medium color-blue">Alternative stays</p>
-                      <p className="text-sm color-blue mb-1">Lisbon city center (~30 min drive)</p>
-                      <p className="text-sm color-blue mb-2">Group rate: TBA</p>
-                      <p className="text-xs color-blue">Details coming soon</p>
+                      <p className="text-sm color-blue mb-1">There are many competitively priced hotels in the surrounding area and across Lisbon.</p>
+                      <p className="text-xs color-blue">Guests are welcome to choose accommodations that best suit their preferences and budget.</p>
                     </div>
                   </div>
                 </div>
