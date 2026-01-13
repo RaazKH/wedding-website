@@ -1,10 +1,6 @@
 'use client'
 
-import { useState } from 'react'
-import RsvpForm from '@/components/RsvpForm'
-
 export default function RSVP() {
-  const [showForm, setShowForm] = useState(false)
 
   return (
     <main className="min-h-screen py-16">
@@ -21,7 +17,7 @@ export default function RSVP() {
                 <div>
                   <h3 className="font-serif text-xl mb-4 color-blue">Ceremony & Reception</h3>
                   <p className="color-blue mb-2">Saturday, January 24, 2026</p>
-                  <p className="color-blue mb-2">Time: TBA</p>
+                  <p className="color-blue mb-2">Time: 2:00 PM</p>
                   <p className="color-blue mb-4">Quinta Condes de Valadares</p>
                   <p className="color-blue text-sm">
                     Rua do Chafariz, Nº5, A Dos Calvos, 2670-012<br />
@@ -75,37 +71,6 @@ export default function RSVP() {
                 </div>
               </div>
             </div>
-          </section>
-
-          <section className="text-center">
-            <h2 className="font-serif uppercase color-dark-red text-2xl font-light mb-8">Please Respond</h2>
-            <p className="text-lg color-blue mb-4">
-              We're so excited to celebrate with you!
-            </p>
-            <p className="text-base color-blue mb-8">
-              Please respond by <strong>20 December 2025</strong> so we can finalize our preparations.
-            </p>
-
-            {!showForm ? (
-              <button
-                onClick={() => setShowForm(true)}
-                className="bg-red text-white px-8 py-4 rounded-lg font-medium text-lg hover:bg-red/90 focus:outline-none focus:ring-2 focus:ring-red focus:ring-offset-2 transition-colors shadow-sm"
-              >
-                RSVP Now
-              </button>
-            ) : (
-              <div className="space-y-6">
-                <div className="flex justify-center">
-                  <button
-                    onClick={() => setShowForm(false)}
-                    className="color-blue hover:color-red transition-colors text-sm"
-                  >
-                    X Close RSVP form
-                  </button>
-                </div>
-                <RsvpForm />
-              </div>
-            )}
           </section>
         </div>
       </div>
