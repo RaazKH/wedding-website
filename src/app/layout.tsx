@@ -37,6 +37,7 @@ export const metadata: Metadata = {
   title: 'Layli & Raaz | Wedding',
   description: 'Join us for our wedding celebration',
   keywords: ['wedding', 'Raaz', 'Layli', 'celebration'],
+  icons: { icon: '/icon.png' },
 }
 
 export default function RootLayout({
